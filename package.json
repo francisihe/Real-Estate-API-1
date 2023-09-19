@@ -1,0 +1,24 @@
+{
+  "name": "real-estate-api-1",
+  "version": "1.0.0",
+  "description": "Test API to serve Real Estate frontend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisihe/Real-Estate-API-1.git"
+  },
+  "author": "Francis Ihejirika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisihe/Real-Estate-API-1/issues"
+  },
+  "homepage": "https://github.com/francisihe/Real-Estate-API-1#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
