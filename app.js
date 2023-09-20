@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
     res.send(welcomeNote);
 })
 
+app.get('/about', (request, response) => {
+    //res.send('<p>THis is an about page</p>')
+})
+
 app.get('/properties', (req, res)=> {
     
     const miniDetails = Properties.map((property) => {
