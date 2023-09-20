@@ -4,8 +4,10 @@ const { Properties } = require('./data');
 // import { Properties } from './data.js';
 
 app.get('/', (req, res) => {
-    const welcomeNote = 
-    `Welcome to the Real Estate API. 
+
+    // This route shows a default welcome note
+    const welcomeNote =
+        `Welcome to the Real Estate API. 
     To begin, you can navigate to 
     <p><a href="/properties">Properties</a></p>
     `
@@ -13,22 +15,41 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (request, response) => {
-    //res.send('<p>THis is an about page</p>')
+    // This route will contain an about page and possibly mini doc for the API
+    res.send('<p>This is an about page</p>')
 })
 
-app.get('/properties', (req, res)=> {
-    
+app.get('/properties', (req, res) => {
+
+    //This route returns only minimal details used to populate the property cards
+    //These are the id, title, propertyStatus, price and featured image
+
     const miniDetails = Properties.map((property) => {
-        const {id, title, status, price, images} = property;
+        const { id, title, propertyStatus, price, images } = property;
         const featuredImage = images[0];
-        return {id, title, status, price, featuredImage}
+        return { id, title, propertyStatus, price, featuredImage }
     })
 
     res.json(miniDetails)
 })
 
+app.post('/properties', (req, res) => {
+    // This route adds new property using POST method
+    
+    const newProperty = {id, propertyStatus, type} = req.body;
+
+    if (!id, propertyStatus) {
+        return res.send('Please input details of property')
+    }
+
+    res.send('Test')
+})
+
 app.get('/properties/:propertyId', (req, res) => {
-    const {propertyId} = req.params
+
+    //This route returns all the available data for a specific property using unique identifier of ID
+
+    const { propertyId } = req.params
     const singleProperty = Properties.find((property) => property.id === Number(propertyId))
     return res.json(singleProperty)
 })

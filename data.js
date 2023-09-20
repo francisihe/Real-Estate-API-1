@@ -1,7 +1,7 @@
 const Properties = [
     {
         "id": 1,
-        "status": "Available",
+        "propertyStatus": "Available",
         "type": "House",
         "category": "Rent",
         "title": "Luxury Villa",
@@ -24,7 +24,7 @@ const Properties = [
     },
     {
         "id": 2,
-        "status": "Taken",
+        "propertyStatus": "Taken",
         "type": "Land",
         "category": "For Sale",
         "title": "Scenic Land",
@@ -47,7 +47,7 @@ const Properties = [
     },
     {
         "id": 3,
-        "status": "Taken",
+        "propertyStatus": "Taken",
         "type": "Land",
         "category": "For Sale",
         "title": "Scenic Land",
@@ -70,7 +70,7 @@ const Properties = [
     },
     {
         "id": 4,
-        "status": "Available",
+        "propertyStatus": "Available",
         "type": "House",
         "category": "Rent",
         "title": "Luxury Villa",
@@ -95,7 +95,7 @@ const Properties = [
     },
     {
         "id": 5,
-        "status": "Available",
+        "propertyStatus": "Available",
         "type": "House",
         "category": "Rent",
         "title": "Luxury Villa",
