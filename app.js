@@ -1,8 +1,13 @@
 const express = require('express');
 const app = express();
+{/* --- --- --- */}
+
+{/* --- --- --- */}
+// Hardcoded data in data.js
 const { Properties } = require('./data');
 
-//Use JSON Objects witin routes
+{/* --- --- --- */}
+//Use JSON Objects within routes
 app.use(express.json())
 
 app.get('/', (req, res) => {
@@ -130,6 +135,7 @@ app.delete('/properties/:propertyId', (req, res) => {
     .json({status: true, message: `Property with ID ${propertyId} has been deleted`})
 })
 
+{/* --- --- --- */}
 app.listen(8000, () => {
     console.log('API running on port 8000...')
 })
