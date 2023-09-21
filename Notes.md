@@ -82,4 +82,5 @@ Notes to self: (Esp 3, 4, 7)
     });
     });
 
-8.  
+8.  Work on auth route
+9.  
