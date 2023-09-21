@@ -4,6 +4,8 @@ The Real Estate API is a Node.js and Express.js-powered API created by Francis I
 
 It's still under development so be sure to manage, edit and update to fit your preference
 
+![Real Estate API Screenshot](<public/images/Screenshot from 2023-09-21 04-00-21.png>)
+
 ## Getting Started
 **Prerequisites**
 Before you begin, ensure you have met the following requirements:
