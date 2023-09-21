@@ -17,11 +17,11 @@ To set up and run the Real Estate API locally, follow these steps:
 
 ### **Clone the repository:**
 
-`git clone https://github.com/francisihejirika/real-estate-api.git`
+`git clone https://github.com/francisihe/Real-Estate-API-1`
 
 Change to the project directory:
 
-`cd real-estate-api`
+`cd Real-Estate-API-1`
 
 Install dependencies:
 
