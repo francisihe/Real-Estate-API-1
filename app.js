@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
 
-{/* --- --- --- */}
+{/* --- --- Imported Properties Router --- --- */ }
 const propertiesRouter = require('./routes/properties')
 
-{/* --- --- --- */}
+{/* --- --- Enable JSON to be used within Routes --- --- */}
 //Use JSON Objects within routes
 app.use(express.json())
 
-{/* --- --- --- */}
+{/* --- --- Defined Properties Route via Router --- --- */}
 app.use('/properties', propertiesRouter)
 
 
