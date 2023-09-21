@@ -11,7 +11,7 @@ app.use(express.json())
 {/* --- --- Defined Properties Route via Router --- --- */}
 app.use('/properties', propertiesRouter)
 
-
+{/* --- --- Home Route --- --- */}
 app.get('/', (req, res) => {
 
     // This route shows a default welcome note
@@ -24,6 +24,7 @@ app.get('/', (req, res) => {
         .send(welcomeNote);
 })
 
+{/* --- --- About Route --- --- */}
 app.get('/about', (req, res) => {
     // This route will contain an about page and possibly mini doc for the API
     res.status(200)
@@ -32,7 +33,7 @@ app.get('/about', (req, res) => {
 
 
 
-{/* --- --- --- */}
+{/* --- --- API Listening Port--- --- */}
 app.listen(8000, () => {
     console.log('API running on port 8000...')
 })
