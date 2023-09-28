@@ -83,4 +83,4 @@ Notes to self: (Esp 3, 4, 7)
     });
 
 8.  Work on auth route
-9.  
+9.  Install mongoose, setup MongoDB
