@@ -21,6 +21,8 @@ It's still under development so be sure to manage, edit and update to fit your p
 
 ![Real Estate API Screenshot](<public/images/Screenshot from 2023-09-21 04-00-21.png>)
 
+![Real Estate API Screenshot 2](<public/images/Screenshot from 2023-12-20 23-38-39.png>)
+
 ## Getting Started
 **Prerequisites**
 Before you begin, ensure you have met the following requirements:
